@@ -119,9 +119,6 @@ header .content-2 span {
 .section-2-card div .redOne {
   color: red;
 }
-.section-2-card div .redOne {
-  color: red;
-}
 .section-2-card div:first-child {
   display: flex;
   flex-flow: row nowrap;
