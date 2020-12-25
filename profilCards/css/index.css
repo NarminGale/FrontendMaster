@@ -1,0 +1,178 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #f2f2fa;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen,
+    Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  color: #102a42;
+}
+
+/* Card-1 CSS begins */
+h1 {
+  text-align: center;
+  margin: 4rem 0 5rem 0;
+  font-size: 4rem;
+  line-height: 1.25;
+}
+
+.card-1 {
+  text-align: center;
+  overflow: hidden;
+  padding-bottom: 3.5rem;
+  max-width: 446px;
+  margin: 0 auto;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  position: relative;
+  background-color: #ffffff;
+  box-shadow: inset 0 -1em 1em rgba(90, 83, 83, 0.1),
+    0.1em 0.1em 1em rgba(61, 59, 59, 0.3);
+}
+
+.card-1 .profile-image {
+  border-radius: 50%;
+  width: 130px;
+  margin-top: -65px;
+  border: 5px solid white;
+}
+
+.card-1 header {
+  background-image: url(/img/bg-img.png);
+  height: 197px;
+}
+
+.card-1 h4 {
+  font-size: 22px;
+  line-height: 1;
+  margin: 10px 0;
+  letter-spacing: 2px;
+}
+
+.card-1 p {
+  font-size: 18px;
+  margin-bottom: 2rem;
+  padding: 0 2rem;
+  color: #324d67;
+  line-height: 1.5;
+}
+
+.card-1 .btn {
+  padding: 1rem 2rem;
+  letter-spacing: 1.6px;
+  font-size: 1rem;
+  color: white;
+  background-color: #182e64;
+  border-radius: 5px;
+  border-color: #182e64a1;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+/* Card-1 CSS ends*/
+
+/* Card-2 CSS begins*/
+
+.card-2 {
+  overflow: hidden;
+  max-width: 641px;
+  padding: 2rem 2.5rem;
+  margin: 4rem auto;
+  border: 1px solid #e8e8f0;
+  background-color: #ffffff;
+  box-shadow: inset 0 -1em 1em rgba(90, 83, 83, 0.1),
+    0.1em 0.1em 1em rgba(61, 59, 59, 0.3);
+  display: flex;
+  flex-flow: row nowrap;
+}
+
+.card-2 h4 {
+  font-size: 26px;
+  line-height: 1;
+  margin: 10px 0;
+  letter-spacing: 2px;
+}
+
+.card-2 p {
+  font-size: 18px;
+  margin-bottom: 0;
+  color: #003e72;
+  line-height: 1.5;
+}
+
+.card-2 .profile-image {
+  border-radius: 50%;
+  width: 130px;
+  height: 130px;
+  margin-right: 2.5rem;
+}
+
+.card-2 .btn {
+  padding: 1rem 2rem;
+  letter-spacing: 1.6px;
+  font-size: 1rem;
+  color: #141f64;
+  border-radius: 5px;
+  border-color: #141f64;
+  text-transform: uppercase;
+  cursor: pointer;
+  background-color: white;
+  font-weight: bold;
+  margin-top: 1.5rem;
+}
+/* Card-2 CSS ends*/
+
+/* Card-3 CSS begins*/
+.card-3 {
+  overflow: hidden;
+  max-width: 771px;
+  padding: 2rem 3rem;
+  margin: 4rem auto;
+  border: 1px solid #e8e8f0;
+  background-color: #ffffff;
+  box-shadow: inset 0 -1em 1em rgba(90, 83, 83, 0.1),
+    0.1em 0.1em 1em rgba(61, 59, 59, 0.3);
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+}
+.card-3 h4 {
+  font-size: 26px;
+  letter-spacing: 2px;
+  line-height: 1;
+  margin: 2rem 0 1rem 1rem;
+}
+
+.card-3 .info span {
+  margin-right: 5px;
+}
+
+.card-3 .info p {
+  display: inline-block;
+  margin-left: 15px;
+  margin-right: 40px;
+  color: #3e5070;
+}
+
+.card-3 .profile-image {
+  border-radius: 50%;
+  width: 130px;
+  height: 130px;
+}
+
+.card-3 .btn {
+  padding: 1rem 2rem;
+  margin-bottom: 70px;
+  letter-spacing: 1.6px;
+  font-size: 1rem;
+  color: white;
+  background-color: #182e64;
+  border-color: #182e64a1;
+  border-radius: 5px;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+/* Card-3 CSS ends*/
