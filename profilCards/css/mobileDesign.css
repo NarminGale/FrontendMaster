@@ -1,0 +1,29 @@
+@media only screen and (max-width: 600px) {
+  h1 {
+    font-size: 3em;
+    letter-spacing: 0.04em;
+    margin-bottom: 2em;
+  }
+  .card-2,
+  .card-3 {
+    flex-direction: column;
+    margin: 4rem;
+    align-items: center;
+  }
+  .card-2 .profile-image {
+    margin-right: 0;
+  }
+  .card-2 .info,
+  .card-3 .info {
+    text-align: center;
+  }
+  .card-3 .btn {
+    margin-top: 2.5rem;
+  }
+  .card-3 .info p {
+    margin: 0;
+  }
+  .card-3 p:first-of-type {
+    padding-right: 1.4rem;
+  }
+}
